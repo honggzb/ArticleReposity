@@ -1,0 +1,18 @@
+<h3 class="heading">Latest Article</h3>
+<div ng-controller="ArticlesCtrl">
+    <a href="#/categories" class="btn btn-info">Go Back</a>
+    <div class="row">
+        <div class="articles">
+            <div ng-repeat="article in articles">
+                <div class="col-md-12">
+                    <div class="article">
+                        <h4>{{ article.title }}</h4>
+                        <p>{{ article.body  | limitTo: 200 }}</p>
+                        <a class="btn btn-default"  href="#/articles/details/{{ article._id }}">Read Article</a>
+                    </div>
+                </div>
+                <div ng-if="article == false">No articles to display</div>
+            </div>
+        </div>
+    </div>
+</div>

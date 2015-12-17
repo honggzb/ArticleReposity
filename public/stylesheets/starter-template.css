@@ -1,0 +1,26 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 10PX;
+    text-align: center;
+}
+.heading{
+    background: #666;
+    color: #fff;
+    padding:5px;
+}
+.article{
+    border-bottom: #ccc solid 1px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
